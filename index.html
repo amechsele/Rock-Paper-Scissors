@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <h2 style="text-align: center; background-color: yellowgreen;">
         Rock Paper Scissors Project</h2>
 
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
+    <div id="allButtons">
+        <div id="buttons">
+            <button class="button" id="rock">ROCK</button>
+            <button class="button" id="paper">PAPER</button>
+            <button class="button" id="scissors">SCISSORS</button>
+        </div>
+    
+        <div id="reset">
+            <button id="resetButton">RESET</button>
+        </div>
+    </div>
+    
+    
+    <div id="display">
+        <div class="item" id="result"></div>
+        <div class="item" id="playerScore"></div>
+        <div class="item" id="computerScore"></div>
+        <div class="item" id="winner"></div>
+    </div>
+    
 
 </body>
 </html>

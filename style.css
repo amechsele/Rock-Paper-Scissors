@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#allButtons {
+    display: flex;
+    align-items: flex-start;
+}
+
+#reset {
+    margin: auto;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: auto;
+}
+
+#resetButton {
+    height: 40px;
+    width: 80px;
+    padding: 4px;
+}
+
+.button {
+    height: 40px;
+    width: 80px;
+    padding: 4px;
+}
+
+.item {
+    border: 4px solid blue;
+    gap: 20px;
+    margin: 20px;
+    height: 40px;
+    width: auto;
+}
+
+#display {
+    align-self: center;
+    width: 50%;
+}
